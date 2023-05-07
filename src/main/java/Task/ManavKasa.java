@@ -8,6 +8,7 @@ public class ManavKasa {
         double bananaPrice = 0.95;
         double eggplantPrice = 5.00;
 
+        // Kullanıcıdan meyve ve sebzelerin kilogram miktarları alınır.
         Scanner input = new Scanner(System.in);
 
         System.out.print("How Many Kilos of Pear?: ");
@@ -25,6 +26,7 @@ public class ManavKasa {
         System.out.print("How Many Kilos of Eggplant?: ");
         double eggplantPWeight = input.nextDouble();
 
+        // Toplam tutar hesaplanır ve ekrana yazdırılır.
         double toplamTutar = pearPrice * pearWeight + applePrice * appleweight + tomatoesPrice * tomatoesWeight + bananaPrice * bananaWeight + eggplantPrice * eggplantPWeight;
 
         System.out.println("Total Prica : " + toplamTutar + " TL");

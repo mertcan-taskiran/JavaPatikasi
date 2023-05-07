@@ -1,18 +1,19 @@
 package Task;
 import java.util.Scanner;
 public class VucutKitleIndeksi {
-    public static void main(String[] args) {
-        double height, weight, index;
-        Scanner input = new Scanner(System.in);
+    public static void main(String[] args) { // Ana metod
 
-        System.out.print("Lütfen boyunuzu (metre cinsinde) giriniz: ");
-        height = input.nextDouble();
+        double height, weight, index; // Boy, kilo ve VKİ değeri tanımlanıyor
+        Scanner input = new Scanner(System.in); // Scanner sınıfından input adında bir nesne oluşturuluyor
 
-        System.out.print("Lütfen kilonuzu giriniz: ");
-        weight = input.nextDouble();
+        System.out.print("Lütfen boyunuzu (metre cinsinde) giriniz: "); // Kullanıcıdan boy isteniyor
+        height = input.nextDouble(); // Girilen boy input değişkenine atanıyor
 
-        index = weight / (height * height);
+        System.out.print("Lütfen kilonuzu giriniz: "); // Kullanıcıdan kilo isteniyor
+        weight = input.nextDouble(); // Girilen kilo weight değişkenine atanıyor
 
-        System.out.println("Vücut Kitle İndeksiniz: " + index);
+        index = weight / (height * height); // VKİ hesaplanıyor
+
+        System.out.println("Vücut Kitle İndeksiniz: " + index); // VKİ değeri ekrana yazdırılıyor
     }
 }
