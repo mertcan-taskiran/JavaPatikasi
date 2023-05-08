@@ -33,7 +33,7 @@ public class UcakBileti {
             return;
         }
 
-        // Normal uçak fiyatı
+        // Normal uçak bileti fiyatı
         normalAmount = distance * 0.10;
 
         // Yaşa göre indirim yapılır
