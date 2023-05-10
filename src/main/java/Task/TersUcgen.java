@@ -1,3 +1,13 @@
+/*
+    README
+    <---------------->
+    Java ile basamak sayısının kullanıcıdan alınan ve döngüler kullanılarak, yıldızlar(*) ile ekrana ters üçgen çizen program.
+    Ters üçgen oluşturmak için sayi giriniz: 3
+    *****
+     ***
+      *
+*/
+
 package Task;
 import java.util.Scanner;
 public class TersUcgen {
@@ -22,13 +32,3 @@ public class TersUcgen {
         }
     }
 }
-
-/*
-    README
-    <---------------->
-    Java ile basamak sayısının kullanıcıdan alınan ve döngüler kullanılarak, yıldızlar(*) ile ekrana ters üçgen çizen program.
-    Ters üçgen oluşturmak için sayi giriniz: 3
-    *****
-     ***
-      *
-*/

@@ -1,3 +1,18 @@
+/*
+    README
+    <---------------->
+    Java ile klavyeden girilen N tane sayma sayısından en büyük ve en küçük sayıları bulan ve bu sayıları ekrana yazan program
+
+    Kaç tane sayı gireceksiniz: 3
+
+    1. Sayiyi Giriniz: 3
+    2. Sayiyi Giriniz: 5
+    3. Sayiyi Giriniz: 7
+
+    En büyük sayı: 7
+    En küçük sayı: 3
+*/
+
 package Task;
 import java.util.Scanner;
 public class MinMax {
@@ -37,18 +52,3 @@ public class MinMax {
         System.out.println("En küçük sayı: " + min);
     }
 }
-
-/*
-    README
-    <---------------->
-    Java ile klavyeden girilen N tane sayma sayısından en büyük ve en küçük sayıları bulan ve bu sayıları ekrana yazan program
-
-    Kaç tane sayı gireceksiniz: 3
-
-    1. Sayiyi Giriniz: 3
-    2. Sayiyi Giriniz: 5
-    3. Sayiyi Giriniz: 7
-
-    En büyük sayı: 7
-    En küçük sayı: 3
-*/
