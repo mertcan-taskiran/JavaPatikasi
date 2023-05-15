@@ -1,4 +1,4 @@
-package PracticalWeek2.MaasHesaplayici;
+package TaskWeek2.MaasHesaplayici;
 
 public class Employee {
     String name;
